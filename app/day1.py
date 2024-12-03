@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     msg = "Hello World"
-    usrs = ["Suraj", "Qualcomm", "Hyderabad", "India"]
+    usrs = ["Suraj", "Emily", "Emma", "cool"]
     return jsonify(msg=msg, usrs=usrs)
 
 if __name__ == '__main__':
